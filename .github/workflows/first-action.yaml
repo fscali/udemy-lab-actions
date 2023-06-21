@@ -8,5 +8,5 @@ jobs:
         run: echo "Hello world"
       - name: Print goodbye
         run: echo "Done - bye"
-      - name: Give error
-        run: exit 1
+      - name: Give ok
+        run: exit 0
